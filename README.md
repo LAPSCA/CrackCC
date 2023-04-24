@@ -6,7 +6,7 @@ Please be informed that this is all for educational purpose mty code not for sel
 ## Requirements
 CrackCC requires Python 3.x and the following Python packages:
 - requests
-- pycardvalidate
+- pycard-validate
 - stripe
 
 You can install these dependencies using the following command:
@@ -15,13 +15,20 @@ You can install these dependencies using the following command:
     pip install -r requirements.txt
     in liunx  
     pip3 install -r requirements.txt
+    
     ```
     
+    ##  Install PIP Packget Only 
+```
+pip install pycard-validate 
+pip install stripe
+```
+
 ## Usage
 To use CrackCC, you can run the script from the command line using the following command:
     ```
     - to termux user : 
-    python Crackcc.py
+    python3 Crackcc.py
     - to Liunx user :
     python3 Crackcc.py
     ```
