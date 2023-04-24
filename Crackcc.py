@@ -1,5 +1,5 @@
 import stripe
-import pycardvalidator
+import pycard-validate
 import requests
 import os
 
@@ -21,12 +21,12 @@ def main_menu():
     return choice
 
 def generate_credit_card_number():
-    return pycardvalidator.generate()
+    return pycard-validate.generate()
 
 def validate_credit_card_number():
     credit_card_number = input("Enter the credit card number to validate: ")
     try:
-        pycardvalidator.parseString(credit_card_number)
+        pycard-validate.parseString(credit_card_number)
         print("Valid credit card number")
     except:
         print("Invalid credit card number")
