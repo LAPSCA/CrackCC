@@ -53,5 +53,5 @@ CopyRight 2023© LAPSCA TEAM
 ###
 ## 
 Follow us 
-Telegram[(t.me/estkan3a)]
+[Telegram](te.me/esstkan3a)
 ##
