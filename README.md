@@ -9,7 +9,7 @@ CrackCC requires Python 3.x and the following Python packages:
 - pycard-validate
 - stripe
 
-You can install these dependencies using the following command:
+## You can install these dependencies using the following command:
  
     use in termux 
     pip install -r requirements.txt
