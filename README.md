@@ -15,10 +15,9 @@ CrackCC requires Python 3.x and the following Python packages:
     pip install -r requirements.txt
     in liunx  
     pip3 install -r requirements.txt
-   `` 
+   
    pip install pycard-validate 
    pip install stripe
-  ```
 
 ## Usage
 To use CrackCC, you can run the script from the command line using the following command:
